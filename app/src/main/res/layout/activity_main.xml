@@ -36,7 +36,6 @@
         android:text="회원서비스 이용을 위해 로그인해주세요." />
 
 
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -50,12 +49,20 @@
         android:paddingVertical="10dp"
         android:text="비밀번호" />
 
+    <Button
+        android:id="@+id/logInBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="로그인하기"
+
    <LinearLayout
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:orientation="horizontal">
 
+
    <Button
+        android:id="@+id/findIdBtn"
         android:layout_width="0dp"
         android:layout_weight="2"
         android:layout_height="wrap_content"
@@ -63,6 +70,7 @@
 
 
     <Button
+        android:id="@+id/findPwBtn"
         android:layout_width="0dp"
         android:layout_weight="2"
         android:layout_height="wrap_content"
@@ -70,6 +78,7 @@
 
 
     <Button
+        android:id="@+id/newAccBtn"
         android:layout_width="0dp"
         android:layout_weight="2"
         android:layout_height="wrap_content"
